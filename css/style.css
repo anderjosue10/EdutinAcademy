@@ -74,7 +74,6 @@ body.courses-page {
 
 .courses-title span {
     display: inline-block;
-    animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
