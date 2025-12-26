@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Cursos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body class="courses-page">
+    <!-- Cursor personalizado -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Partículas de fondo -->
+    <div id="particles-js"></div>
+
+
+    <!-- Sección cursos-->
+    <section id="courses" class="courses-section">
+        <div class="courses-container">
+            <div class="courses-header">
+                <h1 class="courses-title">Mis <span>Cursos</span></h1>
+                <p class="courses-subtitle">
+                    Formación especializada en tecnologías modernas. Cada certificado representa horas de aprendizaje y dedicación.
+                </p>
+            </div>
+            
+            <div class="courses-grid">
+                <!-- Curso 1 -->
+                <a href="https://edutin.com/cursos-de-github-y-seguridad" target="_blank" rel="noopener noreferrer" class="course-link">
+                    <div class="course-card" style="--card-index: 1">
+                        <div class="course-glow"></div>
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-code-branch"></i>
+                            </div>
+                            <span class="course-badge">Gratuito</span>
+                            <h3 class="course-title">GitHub & Seguridad</h3>
+                        </div>
+                        
+                        <div class="course-image-container">
+                            <img src="images/GitHub.png" alt="Curso de GitHub" class="course-image" loading="lazy">
+                            <div class="course-image-overlay"></div>
+                        </div>
+                        
+                        <div class="course-content">
+                            <div class="course-institution">
+                                <i class="fas fa-university"></i>
+                                <span>Edutin Academy</span>
+                            </div>
+                            <p class="course-description">
+                                Domina el control de versiones y buenas prácticas de seguridad en desarrollo de software.
+                            </p>
+                            <div class="course-footer">
+                                <span class="course-link-text">
+                                    Ver curso <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="course-tag">Git • Security</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Curso 2 -->
+                <a href="https://edutin.com/cursos-de-ingles-basico-a1" target="_blank" rel="noopener noreferrer" class="course-link">
+                    <div class="course-card" style="--card-index: 2">
+                        <div class="course-glow"></div>
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-language"></i>
+                            </div>
+                            <span class="course-badge">Gratuito</span>
+                            <h3 class="course-title">Inglés Básico A1</h3>
+                        </div>
+                        
+                        <div class="course-image-container">
+                            <img src="images/Inglés Básico A1.png" alt="Curso de Inglés" class="course-image" loading="lazy">
+                            <div class="course-image-overlay"></div>
+                        </div>
+                        
+                        <div class="course-content">
+                            <div class="course-institution">
+                                <i class="fas fa-university"></i>
+                                <span>Edutin Academy</span>
+                            </div>
+                            <p class="course-description">
+                                Fundamentos del idioma inglés para comunicación básica en entornos profesionales.
+                            </p>
+                            <div class="course-footer">
+                                <span class="course-link-text">
+                                    Ver curso <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="course-tag">Idiomas • A1</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Curso 3 -->
+                <a href="https://edutin.com/cursos-de-canva" target="_blank" rel="noopener noreferrer" class="course-link">
+                    <div class="course-card" style="--card-index: 3">
+                        <div class="course-glow"></div>
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <span class="course-badge">Gratuito</span>
+                            <h3 class="course-title">Diseño con Canva</h3>
+                        </div>
+                        
+                        <div class="course-image-container">
+                            <img src="images/CANVA.png" alt="Curso de Canva" class="course-image" loading="lazy">
+                            <div class="course-image-overlay"></div>
+                        </div>
+                        
+                        <div class="course-content">
+                            <div class="course-institution">
+                                <i class="fas fa-university"></i>
+                                <span>Edutin Academy</span>
+                            </div>
+                            <p class="course-description">
+                                Crea diseños profesionales con herramientas de diseño gráfico intuitivas y modernas.
+                            </p>
+                            <div class="course-footer">
+                                <span class="course-link-text">
+                                    Ver curso <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="course-tag">Design • UX</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Curso 4 -->
+                <a href="https://edutin.com/cursos-de-gemini" target="_blank" rel="noopener noreferrer" class="course-link">
+                    <div class="course-card" style="--card-index: 4">
+                        <div class="course-glow"></div>
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <span class="course-badge">Gratuito</span>
+                            <h3 class="course-title">Gemini AI</h3>
+                        </div>
+                        
+                        <div class="course-image-container">
+                            <img src="images/Gemini.png" alt="Curso de Gemini" class="course-image" loading="lazy">
+                            <div class="course-image-overlay"></div>
+                        </div>
+                        
+                        <div class="course-content">
+                            <div class="course-institution">
+                                <i class="fas fa-university"></i>
+                                <span>Edutin Academy</span>
+                            </div>
+                            <p class="course-description">
+                                Aprende a utilizar inteligencia artificial para optimizar tareas y mejorar productividad.
+                            </p>
+                            <div class="course-footer">
+                                <span class="course-link-text">
+                                    Ver curso <i class="fas fa-arrow-right"></i>
+                                </span>
+                                <span class="course-tag">AI • Automation</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botón para volver arriba -->
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 ANDERSON JOSUE GUTIERREZ RIVERA. Todos los derechos reservados.</p>
+                </div>
+                <div class="footer-social">
+                    <a class="whatsapp-btn" data-label="WhatsApp" href="https://wa.me/82320500" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i><span class="sr-only">WhatsApp</span></a>
+                    <a class="instagram-btn" data-label="Instagram" href="https://instagram.com/a_j_g_r_17" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
+                    <a class="facebook-btn" data-label="Facebook" href="https://facebook.com/Jos%C3%A9%20Guti%C3%A9rrez%20Rivera" target="_blank" rel="noopener noreferrer" aria-label="Facebook - Josué Gutiérrez Rivera"><i class="fab fa-facebook-f" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
+                    <a class="linkedin-btn" data-label="LinkedIn" href="https://www.linkedin.com/in/anderson-josué-gutiérrez-rivera-887687370" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn - Anderson Josué Gutiérrez Rivera"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/cursos.js"></script>
+</body>
+</html>
