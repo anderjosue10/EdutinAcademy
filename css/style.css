@@ -61,12 +61,15 @@ body.courses-page {
     font-weight: 800;
     background: var(--gradient);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     background-clip: text;
+    color: transparent; /* Usar color transparent en lugar de -webkit-text-fill-color */
     margin-bottom: 1rem;
     position: relative;
     display: inline-block;
     text-shadow: 0 4px 20px rgba(99, 102, 241, 0.3);
+    /* Añadir estas propiedades para mejor renderizado */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .courses-title span {
